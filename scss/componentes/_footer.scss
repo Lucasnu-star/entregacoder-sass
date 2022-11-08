@@ -1,0 +1,171 @@
+
+    .sec-1
+    {
+        display: flex;
+        width: 100%;
+        height: 60%;
+        .contact
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            h4
+            {
+                width: 100%;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .redes-logos
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            justify-content: center;
+            a {
+                display: flex;
+                width: 10%;
+                align-items: center;
+                text-align: center;
+                font-size: 30px;
+                text-decoration: none;
+                margin: 1rem;
+                i {
+                    height: 50%;
+                    width: 100%;
+                    color: white;
+                }
+            }
+        }
+    }
+    .sec-2
+    {
+        width: 100%;
+        height: 40%;
+        h4{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width:480px ) {
+        .sec-1
+    {
+        display: flex;
+        width: 100%;
+        height: 60%;
+        .contact
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            h4
+            {
+                width: 100%;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+        .redes-logos
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            justify-content: space-evenly;
+            a {
+                display: flex;
+                width: 10%;
+                align-items: center;
+                text-align: center;
+                font-size: 30px;
+                text-decoration: none;
+                i {
+                    height: 50%;
+                    width: 100%;
+                    color: white;
+                }
+            }
+        }
+    }
+    .sec-2
+    {
+        width: 100%;
+        height: 40%;
+        h4{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+    }
+    }
+    @media screen and (max-width:320px ) {
+        .sec-1
+    {
+        display: flex;
+        width: 100%;
+        height: 60%;
+        .contact
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            h4
+            {
+                width: 100%;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+        .redes-logos
+        {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            justify-content: space-evenly;
+            a {
+                display: flex;
+                width: 10%;
+                align-items: center;
+                text-align: center;
+                font-size: 30px;
+                text-decoration: none;
+                i {
+                    height: 50%;
+                    width: 100%;
+                    color: white;
+                }
+            }
+        }
+    }
+    .sec-2
+    {
+        width: 100%;
+        height: 40%;
+        h4{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+    }
+    }
+

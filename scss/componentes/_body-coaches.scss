@@ -1,0 +1,377 @@
+.body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        height: 140vh;
+        justify-content: space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            a{
+                text-decoration: none;
+                font-size: 30px;
+                color: black;
+            }
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 600px;
+                    height:800px;
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+    }
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        height: 140vh;
+        justify-content: space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 350px;
+                    height:800px;
+                    
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+}
+    }
+}
+}
+@media screen and (max-width: 1024px) {
+
+    .body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        justify-content: space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 350px;
+                    height:350px;
+
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+    }
+    }
+}
+}
+@media screen and (max-width: 768px) {
+
+    .body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        justify-content:space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 350px;
+                    height:350px;
+
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+    }
+    }
+}
+}
+@media screen and (max-width: 480px) {
+
+    .body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 50px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        justify-content:space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 350px;
+                    height:350px;
+
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+    }
+    }
+}
+}
+@media screen and (max-width: 320px) {
+
+    .body-rest
+{
+    .text-coach
+    {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        justify-content: space-evenly;
+        h2
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+        p
+        {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+    .content-coaches
+    {
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        justify-content:space-evenly;
+        align-items: center;
+        .card
+        {
+            position: relative;
+            border: 1px solid black;
+            
+            .card-img {
+                height: 100%;
+                
+            }
+            .card-img-top
+                {
+                    width: 300px;
+                    height:350px;
+
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0;
+                        &:hover + .banner-content {
+                            display: block;
+                        }
+                }
+        }
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            display:none;
+        }
+    }
+    }
+}
+}

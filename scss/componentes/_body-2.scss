@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    .grid-rest
+    {
+        display: grid;
+        height: 200vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 85% 5%;
+        grid-template-areas: 
+        "headerr2"
+        "bodyrest"
+        "footer2";
+        
+        
+    }
+    .hraderr{
+        grid-area: headerr2;
+        display: flex;
+        background-color: black;
+
+        
+    }
+    .body-rest
+    {
+        grid-area: bodyrest;
+
+    }
+    .foot
+    {
+        grid-area: footer2;
+        background-color: black;
+
+    }
+}
+
+@media  screen and (max-width: 768px) {
+
+    *{
+    .grid-rest
+    {
+        grid-template-rows: 15% 85% 5%;
+    }
+    .hraderr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body-rest
+    {
+    }
+    .foot
+    {
+    }
+
+}
+}

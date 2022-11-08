@@ -1,0 +1,249 @@
+.father-content-info
+{
+    .map-forza
+    {
+        height: 40%;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contactos
+    {
+        height: 50%;
+        p 
+        {
+            width: 100%;
+            
+            text-align: center;
+            margin-top: 1rem;
+
+            font-size: 30px;
+        }
+        .content-formulario
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 60%;
+            .controls
+            {
+                padding: 0.5rem;
+                width: 50%;
+                
+            }
+            .controls1
+            {
+                padding: 3rem;
+                width: 50%;
+            }
+            .botons
+            {
+                padding: 1rem;
+                width: 10%;
+                
+            }
+        }
+    }
+    .infomas
+    {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        p{
+            font-size: 30px;
+        }
+    }
+
+
+}
+@media screen and (max-width:768px) {
+
+    .father-content-info
+{
+    .map-forza
+    {
+        height: 40%;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contactos
+    {
+        height: 50%;
+        p 
+        {
+            width: 100%;
+            
+            text-align: center;
+            margin-top: 1rem;
+
+            font-size: 30px;
+        }
+        .content-formulario
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 60%;
+            .controls
+            {
+                padding: 0.5rem;
+                width: 70%;
+                
+            }
+            .controls1
+            {
+                padding: 3rem;
+                width: 70%;
+            }
+            .botons
+            {
+                padding: 1rem;
+                width: 20%;
+                
+            }
+        }
+    }
+    .infomas
+    {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        p{
+            font-size: 30px;
+        }
+    }
+
+
+}
+}
+@media screen and (max-width:600px) {
+
+    .father-content-info
+{
+    .map-forza
+    {
+        height: 40%;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contactos
+    {
+        height: 50%;
+        p 
+        {
+            width: 100%;
+            
+            text-align: center;
+            margin-top: 1rem;
+
+            font-size: 30px;
+        }
+        .content-formulario
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 60%;
+            .controls
+            {
+                padding: 0.5rem;
+                width: 70%;
+                
+            }
+            .controls1
+            {
+                padding: 3rem;
+                width: 70%;
+            }
+            .botons
+            {
+                padding: 1rem;
+                width: 20%;
+                
+            }
+        }
+    }
+    .infomas
+    {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        p{
+            font-size: 20px;
+        }
+    }
+
+
+}
+}
+@media screen and (max-width:320px) {
+
+    .father-content-info
+{
+    .map-forza
+    {
+        height: 40%;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contactos
+    {
+        height: 50%;
+        p 
+        {
+            width: 100%;
+            
+            text-align: center;
+            margin-top: 1rem;
+
+            font-size: 30px;
+        }
+        .content-formulario
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 60%;
+            .controls
+            {
+                padding: 0.5rem;
+                width: 90%;
+                
+            }
+            .controls1
+            {
+                padding: 3rem;
+                width: 90%;
+            }
+            .botons
+            {
+                padding: 1rem;
+                width: 30%;
+                
+            }
+        }
+    }
+    .infomas
+    {
+        display: flex;
+        align-items: center;
+        height: 50%;
+        p{
+            font-size: 20px;
+        }
+    }
+
+
+}
+}
