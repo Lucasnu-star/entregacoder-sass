@@ -120,8 +120,80 @@
             
         
     }
+    @media screen and (min-width: 769px) and (max-width:817px)  {
 
+        .logo-text
+        {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            
+            .logo
+            {
+                display: flex;
+                width: 40%;
+                height: 100%;
+                justify-content: flex-end;
+                align-items: center;
+                img 
+                {
+                    border-radius: 50%; 
+                    height: 60%;
+                    width: 60%;
+                    margin-right: 1rem;
 
+                }
+            }
+            .text 
+            {
+                    display: flex;
+                    width: 50%;
+                    height: 100%;
+                    align-items: center;
+                p
+                {
+                        font-size: 50px;
+                        font-weight: bold;
+                        color: white;
+                        width: 100%;
+                        
+                }
+                
+            }
+        } 
+        nav
+        {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            ul {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content:flex-start;
+                list-style-type: none;
+                li {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                        margin: 0.5rem; /* Cambiar esto a 0 cuando sea responsive 770px */
+                        color: white;
+                        &:hover
+                    {
+                        color: yellow;
+                        border-bottom: 4px solid yellow;
+                    }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
     @media screen and (max-width: 768px) {
 
         .logo-text
@@ -274,6 +346,89 @@
             }
         }
     }
+    @media screen and (min-width:481px)and (max-width: 490px) {
+
+        .logo-text
+        {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            background-color: blue;
+            .logo
+            {
+                display: flex;
+                width: 100%;
+                height: 60%;
+                justify-content: center;
+                align-items: flex-end;
+                img 
+                {
+                    border-radius: 50%; 
+                    height: 90%;
+                    width: 30%;
+                    margin-right: 0rem;
+
+                }
+            }
+            .text 
+            {
+                    display: flex;
+                    width: 100%;
+                    height: 40%;
+                    align-items: flex-start;
+                p
+                {
+                        font-size: 35px;
+                        font-weight: bold;
+                        color: white;
+                        width: 100%;
+                        text-align: center;
+                        
+                }
+                
+            }
+        }
+        nav
+        {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            align-items:flex-start;
+            font-weight: bold;
+                
+            
+            ul {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content:center;
+                list-style-type: none;
+                
+                li {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        text-decoration: none;
+                        margin: 5px; 
+                        color: white;
+                        font-size: 15px;
+                        
+                        &:hover
+                    {
+
+                        color: yellow;
+                        border-bottom: 4px solid yellow;
+                    }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
     @media screen and (max-width: 480px) {
 
         .logo-text
@@ -346,6 +501,89 @@
                         &:hover
                     {
 
+                        color: yellow;
+                        border-bottom: 4px solid yellow;
+                    }
+                    }
+                    
+                }
+            }
+        }
+    }
+    @media screen and (min-width:321px)and (max-width: 361px) {
+
+        .logo-text
+        {
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            ;
+            .logo
+            {
+                display: flex;
+                width: 100%;
+                height: 60%;
+                justify-content: center;
+                align-items: flex-end;
+                img 
+                {
+                    border-radius: 50%; 
+                    height: 90%;
+                    width: 40%;
+                    margin-right: 0rem;
+
+                }
+            }
+            .text 
+            {
+                    display: flex;
+                    width: 100%;
+                    height: 40%;
+                    align-items: flex-start;
+                p
+                {
+                        font-size: 35px;
+                        font-weight: bold;
+                        color: white;
+                        width: 100%;
+                        text-align: center;
+                        
+                }
+                
+            }
+        }
+        nav
+        {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            align-items:center;
+            font-weight: bold;
+                
+            
+            ul {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content:flex-start;
+                list-style-type: none;
+                
+                li {
+                    
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+
+                    a {
+                        text-decoration: none;
+                        margin:4px; /* Cambiar esto a 0 cuando sea responsive 770px */
+                        
+                        color: white;
+                        font-size: 12px;
+                        &:hover
+                    {
                         color: yellow;
                         border-bottom: 4px solid yellow;
                     }
