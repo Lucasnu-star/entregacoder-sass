@@ -1254,6 +1254,144 @@
     font-size: 15px;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 445px) {
+  .grid-register {
+    display: grid;
+    height: 170vh;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "register register" "registerr publicidad";
+  }
+  .grid-register .register1 {
+    grid-area: register;
+  }
+  .grid-register .register1 .spinning-funcional {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+  }
+  .grid-register .register1 .spinning-funcional .text-register {
+    display: flex;
+    text-align: center;
+    height: 20%;
+    align-items: center;
+  }
+  .grid-register .register1 .spinning-funcional .text-register h3 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .grid-register .register1 .spinning-funcional .buttons-spining-funcional {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+  }
+  .grid-register .register1 .spinning-funcional .buttons-spining-funcional .botons {
+    padding: 1rem;
+  }
+  .grid-register .register1 .spinning-funcional .form-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+  }
+  .grid-register .register1 .spinning-funcional .form-register .controls2 {
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .grid-register .register1 .spinning-funcional .form-register .controlss2 {
+    width: 15%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .grid-register .register2 {
+    grid-area: registerr;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "dia horario" "row1 row2";
+    background-color: aliceblue;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .grid-register .register2 .dia {
+    display: flex;
+    grid-area: dia;
+    align-items: center;
+  }
+  .grid-register .register2 .dia h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+  .grid-register .register2 .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid: row1;
+  }
+  .grid-register .register2 .row1 .dias-semana {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-register .register2 .row1 .dias-semana .botons3d {
+    padding: 1rem;
+    width: 80%;
+    height: 20%;
+  }
+  .grid-register .register2 .row2 {
+    display: flex;
+    flex-direction: column;
+    grid-area: row2;
+    justify-content: center;
+  }
+  .grid-register .register2 .row2 .horarioss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    border: 1px solid black;
+  }
+  .grid-register .register2 .row2 .horarioss .botons4h {
+    padding: 1rem;
+    width: 80%;
+    height: 30%;
+  }
+  .grid-register .register2 .horario {
+    display: flex;
+    grid-area: horario;
+    align-items: center;
+  }
+  .grid-register .register2 .horario h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+  .grid-register .publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: publicidad;
+    background-color: rgb(207, 206, 209);
+    border-top: 1px solid black;
+  }
+  .grid-register .publicidad img {
+    height: 30%;
+    width: 100%;
+  }
+  .grid-register .publicidad p {
+    text-align: center;
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 320px) {
   .grid-register {
     display: grid;

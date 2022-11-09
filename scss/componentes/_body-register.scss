@@ -494,6 +494,175 @@
 }
     
 }
+@media screen and (min-width:321px) and (max-width: 445px) {
+    .grid-register
+{
+    display: grid;
+    height: 170vh;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "register register"
+    "registerr publicidad"
+    ;
+    .register1
+    {
+        grid-area: register;
+        .spinning-funcional
+        {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            background-color: aliceblue;
+            .text-register
+            {
+                display: flex;
+
+                text-align: center;
+                height: 20%;
+                align-items: center;
+                h3
+                {
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+            .buttons-spining-funcional
+            {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                height: 10%;
+                .botons
+                {
+                    padding: 1rem;
+                }
+            }
+            .form-register
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 70%;
+                .controls2
+                {
+                    width: 70%;
+                    margin: 1rem;
+                    padding: 1rem;
+                }
+                .controlss2
+                {
+                    width: 15%;
+                    margin: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+    .register2
+    {
+        grid-area: registerr;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 10% 90% ;
+        grid-template-areas: 
+        "dia horario"
+        "row1 row2";
+        background-color: aliceblue;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        .dia
+        {
+            display: flex;
+            grid-area: dia;
+            align-items: center;
+            h3
+            {
+                width: 100%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+        .row1
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            grid: row1;
+            .dias-semana
+            {
+                display: flex;
+                height: 50%;
+                width: 100%;
+                border: 1px solid black;
+                justify-content: center;
+                align-items: center;
+                .botons3d
+                {
+                    padding: 1rem;
+                    width: 80%;
+                    height: 20%;
+                }
+            }
+        }
+        .row2
+        {
+            display: flex;
+            flex-direction: column;
+            grid-area: row2;
+            justify-content: center;
+            .horarioss
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 35%;
+                border: 1px solid black;
+                
+                .botons4h
+                {
+                    padding: 1rem;
+                    width: 80%;
+                    height: 30%;
+                }
+            }
+        }
+        .horario
+        {
+            display: flex;
+            grid-area: horario;
+            align-items: center;
+            h3{
+                width: 100%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+    .publicidad
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: publicidad;
+        background-color: rgb(207, 206, 209);
+        border-top: 1px solid black;
+        img{
+            height: 30%;
+            width: 100%;
+        }
+        p{
+
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+
+}
+    
+}
 @media screen and (max-width: 320px) {
     .grid-register
 {
